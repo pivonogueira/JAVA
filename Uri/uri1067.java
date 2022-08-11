@@ -8,14 +8,14 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int soma = 0;
-		for(int i = 0; i < 6; i++) {
-			double n = sc.nextDouble();
-			if (n >=0 ){
-				soma++;
+		int n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			if(i % 2 != 0) {
+				System.out.println(i);
 			}
 		}
-		System.out.println(soma + " valores positivos");
+		
 		sc.close();
 	}
 }

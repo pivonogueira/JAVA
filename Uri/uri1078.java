@@ -7,15 +7,15 @@ public class Main {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
 		
-		int soma = 0;
-		for(int i = 0; i < 6; i++) {
-			double n = sc.nextDouble();
-			if (n >=0 ){
-				soma++;
-			}
+		for (int i = 1; i <= 10; i++) {
+			int soma = i * n;
+			System.out.println(i + " x " + n + " = " + soma);
 		}
-		System.out.println(soma + " valores positivos");
+		
+		
 		sc.close();
 	}
 }
