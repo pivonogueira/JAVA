@@ -1,7 +1,7 @@
 # JAVA
 
-## Inicialização
-Para executar o projeto, utilize as ferramentas descritas na sessão *Ferramentas*.
+Repositório para manter e gerenciar projetos realizados na linguagem Java.
+
 
 ## Ferramentas
 * [Eclipse](https://www.eclipse.org/downloads/) - IDE para desenvolvimento.
@@ -10,7 +10,6 @@ Para executar o projeto, utilize as ferramentas descritas na sessão *Ferramenta
 
 Pasta dedicada ao arquivamento de soluções ás questões apresentadas no website [Beecrowd](https://www.beecrowd.com.br/judge/pt). Mentorados pelo curso de lógica de programação ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.]
 >Status: [Concluído.](https://www.udemy.com/certificate/UC-a7d0b78d-a0a6-49df-98ae-1a018a74062f/)
-
 
 ## Bytebank
 
