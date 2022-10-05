@@ -26,6 +26,6 @@ Pasta dedicada ao arquivamento de projetos e soluções de questoões apresentad
 
 ## • chessGame
 
-Pasta dedicada ao arquivamento de projeto monstando um jogo de xadrez com Java, apersentado no curso de POO ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.
+Pasta dedicada ao arquivamento de projeto de criação de um jogo de xadrez com Java, apersentado no curso de POO ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.
 
 > Status: Em andamento
