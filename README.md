@@ -24,6 +24,12 @@ Pasta dedicada ao arquivamento de projetos e soluções de questoões apresentad
 
 > Status: Em andamento
 
+## • JDBC
+
+Pasta dedicada ao arquivamento de projetos e soluções de questoões referentes a CRUD e Banco de Dados apresentadas no curso de POO ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.
+
+> Status: [Concluído.](https://github.com/pivonogueira/JAVA/tree/main/JDBC) - Vinculado ao curso_programacao_POO
+
 ## • chessGame
 
 Pasta dedicada ao arquivamento de projeto de criação de um jogo de xadrez com Java, apersentado no curso de POO ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.
