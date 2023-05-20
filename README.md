@@ -4,7 +4,8 @@ Repositório para manter e gerenciar projetos realizados na linguagem Java.
 
 ## Ferramentas
 
-[Eclipse](https://www.eclipse.org/downloads/) - IDE para desenvolvimento.
+[Eclipse](https://www.eclipse.org/downloads/) - IDE para desenvolvimento.(até 04/23)
+[ntelliJ IDEA](https://www.jetbrains.com/pt-br/idea/download/#section=windows) - IDE para desenvolvimento (a partir de 05/23)
 
 ## • Uri
 
