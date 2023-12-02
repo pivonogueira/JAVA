@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "263bc31d-30a4-42ca-a18c-21e56501b766",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25670371"
+	},
+	"item": [
+		{
+			"name": "Cadastrar Médico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Nome Um\",\r\n    \"email\": \"email@email.com\",\r\n    \"crm\": \"123456\",\r\n    \"telefone\": \"31999999999\",\r\n    \"especialidade\": \"CARDIOLOGIA\",\r\n    \"endereco\": {\r\n        \"logradouro\": \"rua 1\",\r\n        \"bairro\": \"bairro\",\r\n        \"cep\": \"12345678\",\r\n        \"cidade\": \"Cidade\",\r\n        \"uf\": \"UF\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos"
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Pacientes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Nome Um\",\r\n    \"email\": \"email2@email.com\",\r\n    \"cpf\": \"12312312313\",\r\n    \"telefone\": \"31999999999\",\r\n    \"endereco\": {\r\n        \"logradouro\": \"rua 1\",\r\n        \"bairro\": \"bairro\",\r\n        \"cep\": \"12345678\",\r\n        \"cidade\": \"Cidade\",\r\n        \"uf\": \"UF\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes"
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem de Médicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicos?size=10&page=0&sort=nome,desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicos"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "sort",
+							"value": "nome,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem de Pacientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pacientes?size=10&page=0&sort=nome,desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pacientes"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "sort",
+							"value": "nome,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar Médico",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"nome\": \"Nome 2\",\r\n    \"telefone\": \"\",\r\n     \"endereco\": {\r\n        \"logradouro\": \"rua 1\",\r\n        \"bairro\": \"bairro\",\r\n        \"cep\": \"12345678\",\r\n        \"cidade\": \"Cidade\",\r\n        \"uf\": \"UF\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/medicos"
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar Paciente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"1\",\r\n    \"nome\": \"Nome dois\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/pacientes"
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Médico",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/medicos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Paciente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/pacientes/1"
+			},
+			"response": []
+		}
+	]
+}
