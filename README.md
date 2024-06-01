@@ -43,3 +43,9 @@ Pasta dedicada ao arquivamento de projeto de criação de um jogo de xadrez com 
 Pasta dedicada ao arquivamento de projeto prático de api de cadastro de clientes, produtos e operações. Com integração a banco de dados, utilização de SpringBoot apresentados no curso de POO ministrado pelo professor Nélio Alves, disponibilizado na plataforma Udemy.
 
 > Status: [Concluído.](https://github.com/pivonogueira/JAVA/tree/main/course) - Vinculado ao curso_programacao_POO
+
+## • token-randomico
+
+Pasta dedicada ao arquivamento de projeto prático de api de cadastro de usuários, com gerador aleatório de chaves, que podem ser utilizadas para recuperar a senha.
+
+> Status: [Concluído.](https://github.com/pivonogueira/JAVA/tree/main/token-randomico) - Vinculado ao curso_programacao_POO
