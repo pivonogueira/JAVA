@@ -42,7 +42,7 @@ Request:
     {
     "nome": "Mary Jane",
     "cpf": "123456789",
-    "dataNascimento": "1995-01-21",
+    "dataNascimento": "1990-01-01",
     "email": "a@a.com",
     "senha": "123456",
     "administrador": true

@@ -33,7 +33,7 @@ public class Chave {
     private Token token;
 
     public void gerarChave() {
-        this.chaveRandomica = 1 + new Random().nextInt(999998);
+        this.chaveRandomica = 100000 + new Random().nextInt(899999);
         this.usado = false;
     }
 }
