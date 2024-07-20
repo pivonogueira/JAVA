@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-payment
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+queue:
+  order-notification: order-notification-queue
+  payment-notification: payment-notification-queue
+

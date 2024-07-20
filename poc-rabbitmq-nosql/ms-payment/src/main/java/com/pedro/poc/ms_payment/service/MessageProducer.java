@@ -1,7 +1,7 @@
-package com.pedro.poc.ms_order.service;
+package com.pedro.poc.ms_payment.service;
 
-import com.pedro.poc.ms_order.configuration.RabbitMqConfig;
-import com.pedro.poc.ms_order.dto.OrderDTO;
+import com.pedro.poc.ms_payment.configuration.RabbitMqConfig;
+import com.pedro.poc.ms_payment.dto.OrderDTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ public class MessageProducer {
     @Autowired
     private RabbitMqConfig rabbitMqConfig;
 
-    public void sendMessage(OrderDTO order){
+    public void sendOrderQueueMessage(OrderDTO order){
         rabbitTemplate.convertAndSend(rabbitMqConfig.orderQueue().getName(), order);
     }
 }
