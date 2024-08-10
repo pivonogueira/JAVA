@@ -58,7 +58,7 @@ public class OrderService {
         return OrderDTO.builder()
                 .id(order.getId())
                 .customerCpf(order.getCustomerCpf())
-                .total(order.getTotalOrderValue())
+                .totalOrderValue(order.getTotalOrderValue())
                 .status(order.getStatus())
                 .build();
     }

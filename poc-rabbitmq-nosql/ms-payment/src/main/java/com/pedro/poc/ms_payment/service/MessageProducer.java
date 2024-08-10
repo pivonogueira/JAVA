@@ -15,7 +15,7 @@ public class MessageProducer {
     @Autowired
     private RabbitMqConfig rabbitMqConfig;
 
-    public void sendOrderQueueMessage(OrderDTO order){
-        rabbitTemplate.convertAndSend(rabbitMqConfig.orderQueue().getName(), order);
+    public void sendOrderQueueMessage(OrderDTO message){
+        rabbitTemplate.convertAndSend(rabbitMqConfig.paymentQueue().getName(), message);
     }
 }

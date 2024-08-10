@@ -14,6 +14,6 @@ public class OrderDTO {
 
     private Long id;
     private String customerCpf;
-    private double total;
+    private double totalOrderValue;
     private OrderStatus status;
 }

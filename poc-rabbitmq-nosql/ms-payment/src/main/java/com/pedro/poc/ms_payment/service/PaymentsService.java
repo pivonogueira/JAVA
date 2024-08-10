@@ -5,10 +5,12 @@ import com.pedro.poc.ms_payment.entity.OrderStatus;
 import com.pedro.poc.ms_payment.entity.Payment;
 import com.pedro.poc.ms_payment.repository.PaymentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@Service
 public class PaymentsService {
 
     private static final double MAX_ORDER_VALUE = 1000.0;
@@ -47,6 +49,7 @@ public class PaymentsService {
                 .id(paymentOrder.getId())
                 .customerCpf(paymentOrder.getCustomerCpf())
                 .totalOrderValue(paymentOrder.getTotalOrderValue())
+                .status(paymentOrder.getStatus())
                 .build();
     }
 

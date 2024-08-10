@@ -1,4 +1,7 @@
+server:
+  port: 8081
 spring:
+  port: 8082
   application:
     name: ms-payment
   rabbitmq:
@@ -6,6 +9,15 @@ spring:
     port: 5672
     username: guest
     password: guest
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
 
 queue:
   order-notification: order-notification-queue
